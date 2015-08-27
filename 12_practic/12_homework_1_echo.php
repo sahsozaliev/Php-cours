@@ -1,14 +1,18 @@
 <?php
 require_once(dirname(__FILE__).'/12_homework_1_Person.php');
 
-$name = new Person ('Иван Тодоров',25);
-$age = new Person ('Мария',33);
+$name = ('Иван Тодоров');
+$age = (33);
+$mail = (horr@.abv.bg);
 
-$ivan->greet();
-$maria->greet();
+$name->greet();
+$age->greet();
+$mail->greet();
 
 echo "<br />";
-echo $maria->getAge();
+echo $name->getName();
 echo  "<br/>";
-echo Person::getPeopleCount();
+echo $age->getAge();
+echo  "<br/>";
+echo $mail->getMail();
 ?>

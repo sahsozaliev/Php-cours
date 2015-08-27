@@ -2,7 +2,7 @@
 class Person
 
 {
-    public static $name = 3;
+    public static $name;
     public $age;
     private $mail;
 
@@ -24,8 +24,8 @@ class Person
         return $this->age;
     }
 
-    public static function getPeopleCount(){
-        return self::$people;
+    public function getMail(){
+        return $thia->mail;
     }
 
 }
